@@ -9,10 +9,10 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
-global.packname = 'Bot WhatsApp'
+global.owner = ['6281511840540'] //['628','628'] 2 owner atau lebih
+global.author = 'FaizVonReichnau'
+global.botname = 'FaizVonReichnau Bot'
+global.packname = 'Ehrenwerter Bot für Adolf Hitler // Bot Terhormat Bagi Adolf Hitler'
 global.listprefix = ['+','!','.']
 
 /*
@@ -37,9 +37,9 @@ global.fake = {
 
 global.my = {
 	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
-	ch: '120363250409960161@newsletter',
+	gh: 'https://github.com/Faizx351/FaizVonReichnauBot',
+	gc: 'https://chat.whatsapp.com/FFVO6nEw3zF9sAWh9i9QCw?mode=wwt',
+	ch: '120363421900339105@newsletter',
 }
 
 global.limit = {
@@ -90,3 +90,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+	
